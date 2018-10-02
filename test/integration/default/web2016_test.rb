@@ -1,6 +1,9 @@
-describe port 80 do
-  it { should be_listening }
-end
+# # encoding: utf-8
+
+# Inspec test for recipe nrhl_windows2016_iis_roles::web
+
+# The Inspec reference, with examples and extensive documentation, can be
+# found at http://inspec.io/docs/reference/resources/
 
 describe windows_feature('Web-Server') do
   it { should be_installed }
@@ -14,7 +17,7 @@ describe windows_feature('Web-Http-Redirect') do
   it { should be_installed }
 end
 
-describe windows_feature('Web-Log-Libraries') do
+describe windows_feature('Web-Log-WebLogLibraries') do
   it { should be_installed }
 end
 
