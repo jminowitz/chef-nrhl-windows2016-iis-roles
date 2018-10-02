@@ -17,7 +17,7 @@ describe windows_feature('Web-Http-Redirect') do
   it { should be_installed }
 end
 
-describe windows_feature('Web-Log-WebLogLibraries') do
+describe windows_feature('Web-Log-Libraries') do
   it { should be_installed }
 end
 
