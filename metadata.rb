@@ -1,10 +1,10 @@
 name 'nrhl_windows2016_iis_roles'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Joe Minowitz'
+maintainer_email 'joe.minowitz@hautelook.com'
 license 'All Rights Reserved'
 description 'Installs/Configures chef-nrhl-windows2016-iis-roles'
 long_description 'Installs/Configures chef-nrhl-windows2016-iis-roles'
-version '0.1.0'
+version '2.5.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 # The `issues_url` points to the location where issues for this cookbook are
