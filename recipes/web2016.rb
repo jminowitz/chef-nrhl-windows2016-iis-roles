@@ -24,7 +24,6 @@ dsc_script 'IIS Management Console' do
   EOH
 end
 
-# Install IIS-HttpRedirect.
 dsc_script 'Web-Http-Redirect' do
   code <<-EOH
   WindowsFeature InstallWebHttpRedirect
@@ -35,7 +34,6 @@ dsc_script 'Web-Http-Redirect' do
   EOH
 end
 
-# Install IIS-LoggingTools.
 dsc_script 'IIS-LoggingLibraries' do
   code <<-EOH
   WindowsFeature WebLogLibraries
@@ -46,7 +44,6 @@ dsc_script 'IIS-LoggingLibraries' do
   EOH
 end
 
-# Install IIS-LoggingTools.
 dsc_script 'Web-Custom-Logging' do
   code <<-EOH
   WindowsFeature WebCustomLogging
@@ -227,7 +224,6 @@ dsc_script 'NET-Framework-Core' do
   EOH
 end
 
-# Install IIS-RequestMonitor.
 dsc_script 'IIS-RequestMonitor' do
   code <<-EOH
   WindowsFeature WebRequestMonitor
@@ -238,7 +234,6 @@ dsc_script 'IIS-RequestMonitor' do
   EOH
 end
 
-# Install IIS-HttpTracing.
 dsc_script 'IIS-HttpTracing' do
   code <<-EOH
   WindowsFeature WebHttpTracing
@@ -249,7 +244,6 @@ dsc_script 'IIS-HttpTracing' do
   EOH
 end
 
-# Install IIS-BasicAuthentication.
 dsc_script 'IIS-BasicAuthentication' do
   code <<-EOH
   WindowsFeature WebBasicAuth
@@ -260,7 +254,6 @@ dsc_script 'IIS-BasicAuthentication' do
   EOH
 end
 
-# Install IIS-WindowsAuthentication.
 dsc_script 'IIS-WindowsAuthentication' do
   code <<-EOH
   WindowsFeature WebWindowsAuth
@@ -271,7 +264,6 @@ dsc_script 'IIS-WindowsAuthentication' do
   EOH
 end
 
-# Install IIS-Applicationinitialization.
 dsc_script 'IIS-Applicationinit' do
   code <<-EOH
   WindowsFeature WebAppInit
@@ -282,7 +274,6 @@ dsc_script 'IIS-Applicationinit' do
   EOH
 end
 
-# Install IIS-CGI.
 dsc_script 'IIS-CGI' do
   code <<-EOH
   WindowsFeature WebCGI
@@ -293,7 +284,6 @@ dsc_script 'IIS-CGI' do
   EOH
 end
 
-# Install ASP.NET 4.5.
 dsc_script 'Web-Asp-Net45' do
   code <<-EOH
   WindowsFeature WebAspNet45
