@@ -1,3 +1,3 @@
 # chef-nrhl-iis
 
-TODO: Enter the cookbook description here.
+Installs all IIS Roles and Windows Features, plus Web platform installer and dotnet core 2
