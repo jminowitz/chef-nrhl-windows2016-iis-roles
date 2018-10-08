@@ -1,6 +1,6 @@
 # # encoding: utf-8
 
-# Inspec test for recipe nrhl_windows2016_iis_roles::web
+# Inspec test for recipe nrhl_iis::iis
 
 # The Inspec reference, with examples and extensive documentation, can be
 # found at http://inspec.io/docs/reference/resources/

@@ -1,4 +1,3 @@
-# chef-nrhl-windows2016-iis-roles
+# chef-nrhl-iis
 
 TODO: Enter the cookbook description here.
-

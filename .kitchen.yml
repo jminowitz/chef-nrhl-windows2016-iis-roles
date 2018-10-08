@@ -11,14 +11,20 @@ verifier:
   name: inspec
 
 platforms:
-- name: windows2016
+#- name: windows2016
+#  driver_config:
+#      box: jacqinthebox/windowsserver2016
+#      box_url: https://app.vagrantup.com/jacqinthebox/boxes/windowsserver2016
+
+- name: windows-2012r2
   driver_config:
-      box: jacqinthebox/windowsserver2016
-      box_url: https://app.vagrantup.com/jacqinthebox/boxes/windowsserver2016
+      box: mwrock/Windows2012R2
+      box_url: https://app.vagrantup.com/mwrock/Windows2012R2
+
 
 suites:
   - name: default
     run_list:
-     - recipe[nrhl_windows2016_iis_roles::default]
+     - recipe[nrhl_iis::default]
 
     attributes:

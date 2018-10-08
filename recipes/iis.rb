@@ -1,6 +1,6 @@
 #
-# Cookbook:: nrhl-windows2016-iis-roles
-# Recipe:: web2016
+# Cookbook:: nrhl-iis
+# Recipe:: iis
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 # Enable the IIS role.

@@ -1,6 +1,6 @@
 # # encoding: utf-8
 
-# Inspec test for recipe chef-nrhl-windows2016-iis-roles::default
+# Inspec test for recipe chef-nrhl-iis::default
 
 # The Inspec reference, with examples and extensive documentation, can be
 # found at http://inspec.io/docs/reference/resources/
